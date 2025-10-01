@@ -1,6 +1,6 @@
 # Harmonic Oscillator Simulation  
 
-**Інтерактивна симуляція гармонічного осцилятора з реальними фізичними розрахунками та візуалізацією**  
+**Interactive harmonic oscillator simulation with real physical calculations and advanced visualization**  
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)  
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)  
@@ -9,63 +9,63 @@
 
 ---
 
-## Зміст  
-- [Огляд](#огляд)  
-- [Функції](#функції)  
-- [Технології](#технології)  
-- [Встановлення](#встановлення)  
-- [Структура проекту](#структура-проекту)  
-- [Фізичні розрахунки](#фізичні-розрахунки)  
-- [Компоненти](#компоненти)  
-- [Використання](#використання)  
-- [Скріншоти](#скріншоти)  
-- [Розробка](#розробка)  
-- [Внесок](#внесок)  
-- [Ліцензія](#ліцензія)  
+## Table of Contents  
+- [Overview](#overview)  
+- [Features](#features)  
+- [Technologies](#technologies)  
+- [Installation](#installation)  
+- [Project Structure](#project-structure)  
+- [Physics Calculations](#physics-calculations)  
+- [Components](#components)  
+- [Usage](#usage)  
+- [Screenshots](#screenshots)  
+- [Development](#development)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
 ---
 
-## Огляд  
-Це повнофункціональна веб-симуляція гармонічного осцилятора, створена для освітніх цілей.  
-Проєкт демонструє фізичні принципи коливань через інтерактивну візуалізацію з точними математичними розрахунками.  
+## Overview  
+This is a full-featured web simulation of a **harmonic oscillator**, built for educational purposes.  
+It demonstrates oscillation principles through **interactive visualizations** with accurate physical calculations.  
 
-### Ключові особливості  
-- 🎮 **Інтерактивні елементи управління** — регулювання всіх фізичних параметрів у реальному часі  
-- 📊 **Детальні графіки** — положення, швидкість, прискорення, енергія з анотаціями  
-- 🔬 **Фазовий простір** — діаграма *x(t)* vs *v(t)* для аналізу стану системи  
-- 🌈 **Енергетична візуалізація** — осцилоскопічне відображення трансформації енергії  
-- 🎵 **Звукові ефекти** — аудіо-зворотний зв'язок при проходженні через рівновагу  
-- 🔄 **Режим порівняння** — одночасний аналіз до 2 моделей  
-- 🎲 **Режим хаосу** — випадкові початкові швидкості для непередбачуваної динаміки  
-- 🌙 **Темна тема** — сучасний дизайн з підтримкою темної теми  
-
----
-
-## Функції  
-
-### Фізичні параметри  
-- **Амплітуда (A)** — максимальне відхилення  
-- **Частота (ω)** — кутова частота  
-- **Фаза (φ)** — початковий фазовий зсув (0–360°)  
-- **Маса (m)** — 0.5–5 кг  
-- **Жорсткість пружини (k)** — 1–30 Н/м  
-- **Коефіцієнт затухання (γ)** — 0–1  
-
-### Типи графіків  
-1. **Графіки руху:** *x(t), v(t), a(t)*  
-2. **Енергетичний аналіз:** KE, PE, E  
-3. **Фазовий простір:** траєкторія *x vs v*  
-4. **Спектральний аналіз (FFT):** частотна декомпозиція  
-
-### Інтерактивні можливості  
-- 🎯 Hover-підказки з поясненням фізики  
-- 📍 Анотації ключових точок  
-- 🔢 Вивід точних числових значень  
-- 🎨 Енергетичні потоки у стилі осцилоскопа  
+### Key Highlights  
+- 🎮 **Interactive controls** — adjust physical parameters in real time  
+- 📊 **Detailed graphs** — position, velocity, acceleration, energy with annotations  
+- 🔬 **Phase space** — *x(t) vs v(t)* trajectory for system analysis  
+- 🌈 **Energy visualization** — oscilloscope-style energy transformations  
+- 🎵 **Sound effects** — audio feedback when passing through equilibrium  
+- 🔄 **Comparison mode** — analyze up to two models simultaneously  
+- 🎲 **Chaos mode** — unpredictable behavior with random initial velocities  
+- 🌙 **Dark mode** — modern UI with theme switching  
 
 ---
 
-## Технології  
+## Features  
+
+### Physical Parameters  
+- **Amplitude (A)** — maximum displacement  
+- **Angular frequency (ω)** — oscillation rate  
+- **Phase (φ)** — initial phase shift (0–360°)  
+- **Mass (m)** — 0.5–5 kg  
+- **Spring stiffness (k)** — 1–30 N/m  
+- **Damping coefficient (γ)** — 0–1  
+
+### Graph Types  
+1. **Motion graphs:** *x(t), v(t), a(t)*  
+2. **Energy analysis:** KE, PE, Total energy  
+3. **Phase space:** position vs velocity trajectories  
+4. **Spectral analysis (FFT):** frequency decomposition  
+
+### Interactivity  
+- 🎯 Hover tooltips with physics explanations  
+- 📍 Graph annotations at key points  
+- 🔢 Exact numeric values with high precision  
+- 🎨 Energy flows in oscilloscope-style visuals  
+
+---
+
+## Technologies  
 
 ### Frontend  
 - **Next.js 14**  
@@ -73,43 +73,45 @@
 - **Tailwind CSS**  
 - **shadcn/ui**  
 
-### Візуалізація  
-- **Recharts** (графіки)  
-- **HTML5 Canvas** (анімації)  
-- **Web Audio API** (звук)  
+### Visualization  
+- **Recharts** (charts & diagrams)  
+- **HTML5 Canvas** (spring-mass animation)  
+- **Web Audio API** (sound effects)  
 
 ### Dev Tools  
 - ESLint, Prettier  
-- Lucide React (іконки)  
+- Lucide React (icons)  
 
 ---
 
-## Встановлення  
+## Installation  
 
-### Передумови  
+### Prerequisites  
 - Node.js ≥ 18  
-- npm або yarn  
+- npm or yarn  
 ## Deploy on Vercel
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 ![image](https://github.com/user-attachments/assets/43cd07a8-94af-4283-916c-ace8849f2154)
 ![image](https://github.com/user-attachments/assets/72ee958c-efee-4ee5-8508-db64609752f8)
 
+
+
 ```bash
-# 1. Клонування репозиторію
+# 1. Clone repository
 git clone https://github.com/your-username/harmonic-oscillator-simulation.git
 cd harmonic-oscillator-simulation
 
-# 2. Встановлення залежностей
-npm install   # або yarn install
+# 2. Install dependencies
+npm install   # or yarn install
 
-# 3. Ініціалізація shadcn/ui
+# 3. Initialize shadcn/ui
 npx shadcn@latest init
 
-# 4. Додавання компонентів
+# 4. Add UI components
 npx shadcn@latest add button card slider switch tabs label scroll-area dropdown-menu badge
 
-# 5. Запуск сервера розробки
-npm run dev   # або yarn dev
+# 5. Start development server
+npm run dev   # or yarn dev
 
 
