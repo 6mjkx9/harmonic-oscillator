@@ -112,13 +112,4 @@ npx shadcn@latest add button card slider switch tabs label scroll-area dropdown-
 # 5. Запуск сервера розробки
 npm run dev   # або yarn dev
 
-Frontend Developer / Simulation Engineer
-● Interactive Simulation: Developed a full-featured web application that visualizes harmonic oscillations with real physical formulas and precise mathematical calculations.
-● Visualization & Graphing: Implemented real-time annotated charts (position, velocity, acceleration, energy), phase space diagrams, FFT spectral analysis, and oscilloscope-style energy flows using Recharts and HTML5 Canvas.
-● Physics Engine: Programmed accurate motion equations (x(t), v(t), a(t), E) with damping, frequency, and energy transformations.
-● User Experience: Built interactive controls for amplitude, mass, stiffness, damping, and phase with tooltips, hover explanations, dark/light themes, and comparison mode for two models.
-● Audio Integration: Added sound feedback at equilibrium points using Web Audio API.
-● Technologies: Next.js 14, TypeScript, Tailwind CSS, shadcn/ui, Recharts, HTML5 Canvas, Web Audio API.
-
-
 
