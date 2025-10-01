@@ -89,6 +89,11 @@
 ### Передумови  
 - Node.js ≥ 18  
 - npm або yarn  
+## Deploy on Vercel
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image](https://github.com/user-attachments/assets/43cd07a8-94af-4283-916c-ace8849f2154)
+![image](https://github.com/user-attachments/assets/72ee958c-efee-4ee5-8508-db64609752f8)
 
 ```bash
 # 1. Клонування репозиторію
@@ -115,10 +120,5 @@ Frontend Developer / Simulation Engineer
 ● Audio Integration: Added sound feedback at equilibrium points using Web Audio API.
 ● Technologies: Next.js 14, TypeScript, Tailwind CSS, shadcn/ui, Recharts, HTML5 Canvas, Web Audio API.
 
-## Deploy on Vercel
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-![image](https://github.com/user-attachments/assets/43cd07a8-94af-4283-916c-ace8849f2154)
-![image](https://github.com/user-attachments/assets/72ee958c-efee-4ee5-8508-db64609752f8)
 
 
