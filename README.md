@@ -103,7 +103,7 @@ git clone https://github.com/your-username/harmonic-oscillator-simulation.git
 cd harmonic-oscillator-simulation
 
 # 2. Install dependencies
-npm install   # or yarn install
+npm install  
 
 # 3. Initialize shadcn/ui
 npx shadcn@latest init
@@ -112,6 +112,6 @@ npx shadcn@latest init
 npx shadcn@latest add button card slider switch tabs label scroll-area dropdown-menu badge
 
 # 5. Start development server
-npm run dev   # or yarn dev
+npm run dev  
 
 
